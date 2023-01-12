@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+body{
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:  Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.rightNav{
+    font-size: 0.9rem;
+}
+
+.menuBg{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.menuBg:hover{
+    background-color: rgba(100,100,100, 0.1);
+    cursor: pointer;
+
+}
+.menuButton{
+    width:15px;
+}
+
+.circle img{
+    border-radius: 50%;
+}
+.searchSection{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    padding-bottom: 30px;
+    
+}
+
+form{
+    position:relative;
+}
+
+
+.searchBox{
+    width:580px;
+    height:55px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+}
+
+.searchBox:hover {
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+ 
+}
+
+.searchBox:focus{
+    outline:none;
+}
+
+.searchIcon{
+    position: absolute;
+    top:15px;
+    left:15px;
+    width:24px;
+}
+
+.microphone{
+    position: absolute;
+    top: 15px;
+    left: 500px;
+    width:24px;
+}
+
+.imageLogo{
+    position: absolute;
+    top:15px;
+    left:540px;
+    width:24px;
+}
+
+button{
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+button:hover{
+    border: 1px solid #eee;
+    box-shadow:0 0 2px 1px rgba(189 189 189 0.5);
+    cursor: pointer;
+}
+
+.searchButtons{
+    display: flex;
+    width: 350px;
+    margin:auto;
+    margin-top: 30px;
+    justify-content: center;   
+    gap:15px;
+}
+
+footer{
+    width:100%;
+    background-color: #f2f2f2;
+    color: grey;
+}
+
+.panel{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    justify-content: space-between;
+    padding:15px;
+}
+
+.panel ul{
+    padding-left:10px;
+}
+.panel > *{
+    flex-basis: 33%;
+}
+
+p{
+    
+    padding-left: 13px;
+}
+
+.carbonNeu{
+    text-align: center;
+}
+.leaf{
+    width: 13px;
+}
+
+.footerRight{
+    justify-content: flex-end;
+}
